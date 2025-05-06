@@ -1,0 +1,40 @@
+#!/bin/bash
+
+# Automounter for removable media
+udiskie &
+
+# Pyprland Daemon
+pypr --debug /tmp/pypr.log &
+
+# Bar
+waybar &
+
+# Notification Daemon
+swaync &
+
+# OSD Window
+swayosd-server &
+
+# Notify about devices connecting and disconnecting
+devify &
+
+# Idle daemon to screen lock
+hypridle &
+
+# Clipboard
+wl-paste --watch cliphist store &
+
+# Polkit authentication
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+# Screen sharing and portals
+"$HOME"/.config/hypr/scripts/portal &
+# xwaylandvideobridge & # Off when using Vesktop instead of Discord
+
+# Audio
+easyeffects --gapplication-service &
+
+# Wallpaper Backend
+hyprpaper &
+# swww-daemon --format xrgb &
+"$HOME"/.config/hypr/scripts/random_wallpaper &

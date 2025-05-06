@@ -1,0 +1,265 @@
+{
+  "scripts": {
+    "Simple YouTube Age Restriction Bypass": {
+      "custom": {
+        "origInclude": true,
+        "origExclude": true,
+        "origMatch": true,
+        "origExcludeMatch": true,
+        "homepageURL": "https://greasyfork.org/en/scripts/423851-simple-youtube-age-restriction-bypass",
+        "lastInstallURL": "https://update.greasyfork.org/scripts/423851/Simple%20YouTube%20Age%20Restriction%20Bypass.user.js",
+        "pathMap": {}
+      },
+      "config": {
+        "enabled": 1,
+        "shouldUpdate": 1,
+        "removed": 0
+      },
+      "position": 1,
+      "lastModified": 1723389610105,
+      "lastUpdated": 1723389610105
+    },
+    "KeepChatGPT": {
+      "custom": {
+        "origInclude": true,
+        "origExclude": true,
+        "origMatch": true,
+        "origExcludeMatch": true,
+        "homepageURL": "https://greasyfork.org/en/scripts/462804-keepchatgpt",
+        "lastInstallURL": "https://raw.githubusercontent.com/xcanwin/KeepChatGPT/main/KeepChatGPT.user.js?t=1724948308739",
+        "pathMap": {}
+      },
+      "config": {
+        "enabled": false,
+        "shouldUpdate": 1,
+        "removed": 0
+      },
+      "position": 2,
+      "lastModified": 1738150481155,
+      "lastUpdated": 1728858907382
+    },
+    "YouTube - Stay Active and Play Forever": {
+      "custom": {
+        "origInclude": true,
+        "origExclude": true,
+        "origMatch": true,
+        "origExcludeMatch": true,
+        "homepageURL": "https://greasyfork.org/en/scripts/390352-youtube-stay-active-and-play-forever",
+        "lastInstallURL": "https://update.greasyfork.org/scripts/390352/YouTube%20-%20Stay%20Active%20and%20Play%20Forever.user.js",
+        "pathMap": {}
+      },
+      "config": {
+        "enabled": 1,
+        "shouldUpdate": 1,
+        "removed": 0
+      },
+      "position": 3,
+      "lastModified": 1703114969424,
+      "lastUpdated": 1703114969424
+    },
+    "Bypass All Shortlinks Debloated": {
+      "custom": {
+        "origInclude": true,
+        "origExclude": true,
+        "origMatch": true,
+        "origExcludeMatch": true,
+        "lastInstallURL": "https://codeberg.org/Amm0ni4/bypass-all-shortlinks-debloated/raw/branch/main/Bypass_All_Shortlinks.user.js",
+        "pathMap": {}
+      },
+      "config": {
+        "enabled": 1,
+        "shouldUpdate": 1,
+        "removed": 0
+      },
+      "position": 4,
+      "lastModified": 1745152259094,
+      "lastUpdated": 1745152259094
+    },
+    "GreasyFork Bullshit Filter": {
+      "custom": {
+        "origInclude": true,
+        "origExclude": true,
+        "origMatch": true,
+        "origExcludeMatch": true,
+        "homepageURL": "https://greasyfork.org/en/scripts/12179-greasyfork-bull-filter",
+        "lastInstallURL": "https://update.greasyfork.org/scripts/12179/GreasyFork%20Bullshit%20Filter.user.js",
+        "pathMap": {}
+      },
+      "config": {
+        "enabled": 1,
+        "shouldUpdate": 1,
+        "removed": 0
+      },
+      "position": 5,
+      "lastModified": 1724968682987,
+      "lastUpdated": 1724968682987
+    },
+    "Fandom Redirect": {
+      "custom": {
+        "origInclude": true,
+        "origExclude": true,
+        "origMatch": true,
+        "origExcludeMatch": true,
+        "homepageURL": "https://greasyfork.org/en/scripts/476527-fandom-redirect/code",
+        "lastInstallURL": "https://update.greasyfork.org/scripts/476527/Fandom%20Redirect.user.js",
+        "pathMap": {}
+      },
+      "config": {
+        "enabled": 1,
+        "shouldUpdate": 1,
+        "removed": 0
+      },
+      "position": 6,
+      "lastModified": 1725451592510,
+      "lastUpdated": 1725451592510
+    },
+    "AOTY Add-ons": {
+      "custom": {
+        "origInclude": true,
+        "origExclude": true,
+        "origMatch": true,
+        "origExcludeMatch": true,
+        "homepageURL": "https://github.com/ashercs/AOTY-Add-ons/blob/main/AOTY-Addons.user.js",
+        "lastInstallURL": "https://raw.githubusercontent.com/ashercs/AOTY-Add-ons/refs/heads/main/AOTY-Addons.user.js",
+        "pathMap": {}
+      },
+      "config": {
+        "enabled": 1,
+        "shouldUpdate": 1,
+        "removed": 0
+      },
+      "position": 7,
+      "lastModified": 1742472361469,
+      "lastUpdated": 1742472361469
+    },
+    "YouTube CPU Tamer by AnimationFrame": {
+      "custom": {
+        "origInclude": true,
+        "origExclude": true,
+        "origMatch": true,
+        "origExcludeMatch": true,
+        "from": "https://greasyfork.org/en/scripts/431573-youtube-cpu-tamer-by-animationframe",
+        "lastInstallURL": "https://update.greasyfork.org/scripts/431573/YouTube%20CPU%20Tamer%20by%20AnimationFrame.user.js",
+        "pathMap": {}
+      },
+      "config": {
+        "enabled": true,
+        "shouldUpdate": 1,
+        "removed": 0
+      },
+      "position": 8,
+      "lastModified": 1745193160948,
+      "lastUpdated": 1743360308812
+    },
+    "YouTube JS Engine Tamer": {
+      "custom": {
+        "origInclude": true,
+        "origExclude": true,
+        "origMatch": true,
+        "origExcludeMatch": true,
+        "from": "https://greasyfork.org/en/scripts/473972-youtube-js-engine-tamer",
+        "lastInstallURL": "https://update.greasyfork.org/scripts/473972/YouTube%20JS%20Engine%20Tamer.user.js",
+        "pathMap": {}
+      },
+      "config": {
+        "enabled": 1,
+        "shouldUpdate": 1,
+        "removed": 0
+      },
+      "position": 9,
+      "lastModified": 1745191568251,
+      "lastUpdated": 1745191568251
+    }
+  },
+  "settings": {
+    "isApplied": true,
+    "blacklist": "file://*/*",
+    "blacklistNet": "file://*/*",
+    "popupWidth": 320,
+    "updateEnabledScriptsOnly": true,
+    "autoUpdate": 1,
+    "lastUpdate": 1745238685865,
+    "lastModified": 1725574863380,
+    "showBadge": "unique",
+    "badgeColor": "#880088",
+    "badgeColorBlocked": "#888888",
+    "exportValues": true,
+    "exportNameTemplate": "[violentmonkey]_YYYY-MM-DD_HH.mm.ss",
+    "expose": {
+      "greasyfork%2Eorg": true,
+      "sleazyfork%2Eorg": false
+    },
+    "closeAfterInstall": false,
+    "editAfterInstall": false,
+    "helpForLocalFile": true,
+    "trackLocalFile": false,
+    "autoReload": false,
+    "features": null,
+    "syncScriptStatus": true,
+    "customCSS": "",
+    "importScriptData": true,
+    "importSettings": true,
+    "notifyUpdates": false,
+    "notifyUpdatesGlobal": false,
+    "version": 1,
+    "defaultInjectInto": "auto",
+    "ffInject": true,
+    "xhrInject": false,
+    "filters": {
+      "searchScope": "name",
+      "showOrder": false,
+      "sort": "exec",
+      "viewSingleColumn": false,
+      "viewTable": false
+    },
+    "filtersPopup": {
+      "sort": "exec",
+      "enabledFirst": false,
+      "groupRunAt": true,
+      "hideDisabled": ""
+    },
+    "editor": {
+      "killTrailingSpaceOnSave": true,
+      "showTrailingSpace": true,
+      "autocompleteOnTyping": 100,
+      "lineWrapping": false,
+      "indentWithTabs": false,
+      "indentUnit": 2,
+      "tabSize": 2,
+      "undoDepth": 500
+    },
+    "editorTheme": "/*\n\n    Name:       dracula\n    Author:     Michael Kaminsky (http://github.com/mkaminsky11)\n\n    Original dracula color scheme by Zeno Rocha (https://github.com/zenorocha/dracula-theme)\n\n*/\n\n\n.cm-s-dracula.CodeMirror, .cm-s-dracula .CodeMirror-gutters {\n  background-color: #282a36 !important;\n  color: #f8f8f2 !important;\n  border: none;\n}\n.cm-s-dracula .CodeMirror-gutters { color: #282a36; }\n.cm-s-dracula .CodeMirror-cursor { border-left: solid thin #f8f8f0; }\n.cm-s-dracula .CodeMirror-linenumber { color: #6D8A88; }\n.cm-s-dracula .CodeMirror-selected { background: rgba(255, 255, 255, 0.10); }\n.cm-s-dracula .CodeMirror-line::selection, .cm-s-dracula .CodeMirror-line > span::selection, .cm-s-dracula .CodeMirror-line > span > span::selection { background: rgba(255, 255, 255, 0.10); }\n.cm-s-dracula .CodeMirror-line::-moz-selection, .cm-s-dracula .CodeMirror-line > span::-moz-selection, .cm-s-dracula .CodeMirror-line > span > span::-moz-selection { background: rgba(255, 255, 255, 0.10); }\n.cm-s-dracula span.cm-comment { color: #6272a4; }\n.cm-s-dracula span.cm-string, .cm-s-dracula span.cm-string-2 { color: #f1fa8c; }\n.cm-s-dracula span.cm-number { color: #bd93f9; }\n.cm-s-dracula span.cm-variable { color: #50fa7b; }\n.cm-s-dracula span.cm-variable-2 { color: white; }\n.cm-s-dracula span.cm-def { color: #50fa7b; }\n.cm-s-dracula span.cm-operator { color: #ff79c6; }\n.cm-s-dracula span.cm-keyword { color: #ff79c6; }\n.cm-s-dracula span.cm-atom { color: #bd93f9; }\n.cm-s-dracula span.cm-meta { color: #f8f8f2; }\n.cm-s-dracula span.cm-tag { color: #ff79c6; }\n.cm-s-dracula span.cm-attribute { color: #50fa7b; }\n.cm-s-dracula span.cm-qualifier { color: #50fa7b; }\n.cm-s-dracula span.cm-property { color: #66d9ef; }\n.cm-s-dracula span.cm-builtin { color: #50fa7b; }\n.cm-s-dracula span.cm-variable-3, .cm-s-dracula span.cm-type { color: #ffb86c; }\n\n.cm-s-dracula .CodeMirror-activeline-background { background: rgba(255,255,255,0.1); }\n.cm-s-dracula .CodeMirror-matchingbracket { text-decoration: underline; color: white !important; }\n",
+    "editorThemeName": "dracula",
+    "editorWindow": false,
+    "editorWindowPos": {},
+    "editorWindowSimple": true,
+    "scriptTemplate": "// ==UserScript==\n// @name        New script {{name}}\n// @namespace   Violentmonkey Scripts\n// @match       {{url}}\n// @grant       none\n// @version     1.0\n// @author      -\n// @description {{date}}\n// ==/UserScript==\n",
+    "showAdvanced": true,
+    "valueEditor": {
+      "autocompleteOnTyping": 100,
+      "lineWrapping": false,
+      "indentWithTabs": false,
+      "indentUnit": 2,
+      "tabSize": 2,
+      "undoDepth": 500
+    },
+    "uiTheme": "dark"
+  },
+  "values": {
+    "https-3a-2f-2fgithub.com-2fxcanwin-2fKeepChatGPT-2f-0aKeepChatGPT-0a": {
+      "k_lastupdate": "n1738078097742",
+      "k_last_support_author": "n1736097448428",
+      "k_largescreen": "btrue",
+      "k_everchanging": "bfalse",
+      "k_closeModer": "btrue",
+      "k_intercepttracking": "btrue",
+      "k_speakcompletely": "btrue",
+      "k_cleanlyhome": "btrue",
+      "k_lastjob": "s1716029788114,0",
+      "k_theme": "slight"
+    },
+    "https-3a-2f-2falbumoftheyear.org-0aAOTY-20Add-2dons-0a": {
+      "AOTY-Addons": "s{\"RScoreEnable\":\"Off\",\"RScoreRound\":1,\"RScoreFont\":39,\"RScoreRound2\":2,\"RScoreFont2\":18,\"HScoreEnable\":\"Off\",\"HScoreDisableIfRated\":\"On\",\"HScoreHideCriticReviews\":\"Show\",\"HScoreReplacementText\":\"N/A\",\"hideTrackScores\":\"Off\",\"THEnable\":\"On\",\"THMinScore\":90,\"THMinRatings\":25,\"RAEnable\":\"Off\",\"RAKeyBind\":220,\"AARating\":\"Off\",\"TListSorter\":\"Off\",\"avgTracklist\":\"On\",\"ATRound\":2,\"quickAddTracks\":\"Off\",\"quickSubmitter\":\"Off\",\"multiTagSubmit\":\"Off\",\"maxTagLength\":100,\"rymUrl\":\"Off\",\"copyUrl\":\"Off\",\"checkUrl\":\"Off\",\"betterColors\":\"Off\",\"zeroscolor\":\"#D76666\",\"tenscolor\":\"#E07D70\",\"twentiescolor\":\"#E2956F\",\"thirtiescolor\":\"#E5B56E\",\"fourtiescolor\":\"#E2BC85\",\"fiftiescolor\":\"#D6DB7D\",\"sixtiescolor\":\"#B3DD7C\",\"seventiescolor\":\"#9AE27D\",\"eightiescolor\":\"#90E27D\",\"ninetiescolor\":\"#86E27D\",\"hundredcolor\":\"#86E27D\",\"betterLengths\":\"On\"}"
+    }
+  }
+}

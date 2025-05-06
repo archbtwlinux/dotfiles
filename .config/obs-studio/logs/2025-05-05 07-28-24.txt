@@ -1,0 +1,186 @@
+07:28:24.996: [Safe Mode] Unclean shutdown detected!
+07:28:28.932: [Safe Mode] User elected to launch normally.
+07:28:28.933: Platform: Wayland
+07:28:28.933: CPU Name: Intel(R) Core(TM) i5-4200U CPU @ 1.60GHz
+07:28:28.933: CPU Speed: 1596.171MHz
+07:28:28.933: Physical Cores: 2, Logical Cores: 4
+07:28:28.933: Physical Memory: 15765MB Total, 8836MB Free
+07:28:28.933: Kernel Version: Linux 6.12.26-1-lts
+07:28:28.933: Distribution: "Arch Linux" Unknown
+07:28:28.933: Desktop Environment: Hyprland (Hyprland)
+07:28:28.933: Session Type: wayland
+07:28:28.936: Qt Version: 6.9.0 (runtime), 6.8.3 (compiled)
+07:28:28.936: Portable mode: false
+07:28:28.971: OBS 31.0.3 (linux)
+07:28:28.971: ---------------------------------
+07:28:28.972: ---------------------------------
+07:28:28.972: audio settings reset:
+07:28:28.972: 	samples per sec: 48000
+07:28:28.972: 	speakers:        2
+07:28:28.972: 	max buffering:   960 milliseconds
+07:28:28.972: 	buffering type:  dynamically increasing
+07:28:28.974: ---------------------------------
+07:28:28.974: Initializing OpenGL...
+07:28:28.974: Using EGL/Wayland
+07:28:29.038: Initialized EGL 1.5
+07:28:29.063: Loading up OpenGL on adapter Intel Mesa Intel(R) HD Graphics 4400 (HSW GT2)
+07:28:29.063: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 25.0.5-arch1.1, shading language 4.60
+07:28:29.115: ---------------------------------
+07:28:29.115: video settings reset:
+07:28:29.115: 	base resolution:   1920x1080
+07:28:29.115: 	output resolution: 1280x720
+07:28:29.115: 	downscale filter:  Bicubic
+07:28:29.115: 	fps:               60/1
+07:28:29.115: 	format:            NV12
+07:28:29.115: 	YUV mode:          Rec. 709/Partial
+07:28:29.115: NV12 texture support enabled
+07:28:29.115: P010 texture support not available
+07:28:29.123: Audio monitoring device:
+07:28:29.123: 	name: Default
+07:28:29.123: 	id: default
+07:28:29.124: ---------------------------------
+07:28:29.134: Failed to load 'en-US' text for module: 'decklink-captions.so'
+07:28:29.145: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+07:28:29.154: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+07:28:29.154: Failed to initialize module 'decklink.so'
+07:28:29.342: [input-overlay] Loading v5.0.6-makepkg (c99a526) build time 2025.05.04 13:44
+07:28:29.342: DEPRECATION: obs_frontend_get_global_config is deprecated. Read from global or user configuration explicitly instead.
+07:28:29.345: [input-overlay] Initializing SDL2 for gamepad input (compile-time: 2.32.54, run-time:  2.32.54)
+07:28:29.422: [input-overlay] Wayland is not supported by libuiohook. Keyboard an mouse hook will not work.
+07:28:29.422: 
+07:28:29.443: [pipewire] Available capture sources:
+07:28:29.443: [pipewire]     - Monitor source
+07:28:29.443: [pipewire]     - Window source
+07:28:29.472: v4l2loopback not installed, virtual camera not registered
+07:28:29.565: VAAPI: API version 1.22
+07:28:29.565: FFmpeg VAAPI H264 encoding supported
+07:28:29.566: FFmpeg VAAPI AV1 encoding not supported
+07:28:29.567: FFmpeg VAAPI HEVC encoding not supported
+07:28:29.602: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+07:28:29.602: 
+07:28:29.602: NVENC not supported
+07:28:29.602: Failed to initialize module 'obs-nvenc.so'
+07:28:29.636: Legacy intel-vaapi-driver detected, incompatible with QSV
+07:28:29.638: Legacy intel-vaapi-driver detected, incompatible with QSV
+07:28:29.708: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: cannot open shared object file: No such file or directory
+07:28:29.708: 
+07:28:29.713: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: cannot open shared object file: No such file or directory
+07:28:29.713: 
+07:28:29.713: Module '/usr/lib/obs-plugins/obs-websocket.so' not loaded
+07:28:29.763: ---------------------------------
+07:28:29.763:   Loaded Modules:
+07:28:29.763:     wlrobs.so
+07:28:29.763:     text-freetype2.so
+07:28:29.763:     rtmp-services.so
+07:28:29.763:     obs-x264.so
+07:28:29.763:     obs-webrtc.so
+07:28:29.763:     obs-vst.so
+07:28:29.763:     obs-transitions.so
+07:28:29.763:     obs-qsv11.so
+07:28:29.763:     obs-outputs.so
+07:28:29.763:     obs-libfdk.so
+07:28:29.763:     obs-filters.so
+07:28:29.763:     obs-ffmpeg.so
+07:28:29.763:     linux-v4l2.so
+07:28:29.763:     linux-pulseaudio.so
+07:28:29.763:     linux-pipewire.so
+07:28:29.763:     linux-jack.so
+07:28:29.763:     linux-capture.so
+07:28:29.763:     linux-alsa.so
+07:28:29.763:     input-overlay.so
+07:28:29.763:     image-source.so
+07:28:29.763:     frontend-tools.so
+07:28:29.763:     decklink-output-ui.so
+07:28:29.763:     decklink-captions.so
+07:28:29.763: ---------------------------------
+07:28:29.763: ---------------------------------
+07:28:29.763: Available Encoders:
+07:28:29.763:   Video Encoders:
+07:28:29.763: 	- ffmpeg_svt_av1 (SVT-AV1)
+07:28:29.763: 	- ffmpeg_aom_av1 (AOM AV1)
+07:28:29.763: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+07:28:29.763: 	- obs_x264 (x264)
+07:28:29.763:   Audio Encoders:
+07:28:29.763: 	- ffmpeg_aac (FFmpeg AAC)
+07:28:29.763: 	- ffmpeg_opus (FFmpeg Opus)
+07:28:29.763: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+07:28:29.763: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+07:28:29.763: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+07:28:29.763: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+07:28:29.763: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+07:28:29.763: 	- libfdk_aac (libfdk AAC)
+07:28:29.763: ==== Startup complete ===============================================
+07:28:29.797: QObject::connect: No such slot io_settings_dialog::RefreshUi()
+07:28:29.797: QObject::connect:  (receiver name: 'io_config_dialog')
+07:28:29.830: All scene data cleared
+07:28:29.830: ------------------------------------------------
+07:28:29.833: pulse-input: Server name: 'pulseaudio 17.0-43-g3e2bb'
+07:28:29.833: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+07:28:29.834: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor' (default)
+07:28:29.834: [Loaded global audio device]: 'Desktop Audio'
+07:28:29.834: pulse-input: Server name: 'pulseaudio 17.0-43-g3e2bb'
+07:28:29.834: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+07:28:29.834: pulse-input: Started recording from 'alsa_input.pci-0000_00_1b.0.analog-stereo' (default)
+07:28:29.834: [Loaded global audio device]: 'Mic/Aux'
+07:28:29.836: Switched to scene 'Scene'
+07:28:29.836: ------------------------------------------------
+07:28:29.836: Loaded scenes:
+07:28:29.836: - scene 'Scene':
+07:28:29.836:     - source: 'Wayland output(scpy)' (wlrobs-scpy)
+07:28:29.836: ------------------------------------------------
+07:28:34.876: ---------------------------------
+07:28:34.876: [FFmpeg VAAPI encoder: 'advanced_video_recording'] settings:
+07:28:34.876: 	device:       /dev/dri/by-path/pci-0000:00:02.0-render
+07:28:34.876: 	rate_control: CBR
+07:28:34.876: 	profile:      100
+07:28:34.876: 	level:        -99
+07:28:34.876: 	qp:           0
+07:28:34.876: 	bitrate:      2500
+07:28:34.876: 	maxrate:      2500
+07:28:34.876: 	keyint:       120
+07:28:34.876: 	width:        1280
+07:28:34.876: 	height:       720
+07:28:34.876: 	b-frames:     0
+07:28:34.876: 	ffmpeg opts:  
+07:28:34.876: 
+07:28:34.883: ---------------------------------
+07:28:34.883: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+07:28:34.883: 
+07:28:59.934: Failed to call Inhibit: Timeout was reached
+07:28:59.934: ==== Recording Start ===============================================
+07:28:59.934: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/archbtw/Videos/hyprland_config/2025-05-05_07-28-34.mkv'...
+07:29:07.103: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/archbtw/Videos/hyprland_config/2025-05-05_07-28-34.mkv' stopped
+07:29:07.103: Output 'adv_file_output': stopping
+07:29:07.103: Output 'adv_file_output': Total frames output: 1503
+07:29:07.103: Output 'adv_file_output': Total drawn frames: 394 (430 attempted)
+07:29:07.103: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 36 (8.4%)
+07:29:07.103: ==== Recording Stop ================================================
+07:29:07.114: Video stopped, number of skipped frames due to encoding lag: 1349/1505 (89.6%)
+07:29:34.788: ---------------------------------
+07:29:34.788: [FFmpeg VAAPI encoder: 'advanced_video_recording'] settings:
+07:29:34.788: 	device:       /dev/dri/by-path/pci-0000:00:02.0-render
+07:29:34.788: 	rate_control: CBR
+07:29:34.788: 	profile:      100
+07:29:34.788: 	level:        -99
+07:29:34.788: 	qp:           0
+07:29:34.788: 	bitrate:      2500
+07:29:34.788: 	maxrate:      2500
+07:29:34.788: 	keyint:       120
+07:29:34.788: 	width:        1280
+07:29:34.788: 	height:       720
+07:29:34.788: 	b-frames:     0
+07:29:34.788: 	ffmpeg opts:  
+07:29:34.788: 
+07:29:34.816: ---------------------------------
+07:29:34.817: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+07:29:34.817: 
+07:29:59.867: Failed to call Inhibit: Timeout was reached
+07:29:59.867: ==== Recording Start ===============================================
+07:29:59.867: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/archbtw/Videos/hyprland_config/2025-05-05_07-29-34.mkv'...
+07:30:42.711: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/archbtw/Videos/hyprland_config/2025-05-05_07-29-34.mkv' stopped
+07:30:42.711: Output 'adv_file_output': stopping
+07:30:42.711: Output 'adv_file_output': Total frames output: 3169
+07:30:42.711: Output 'adv_file_output': Total drawn frames: 2339 (2571 attempted)
+07:30:42.711: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 232 (9.0%)
+07:30:42.717: ==== Recording Stop ================================================
+07:30:42.802: Video stopped, number of skipped frames due to encoding lag: 3006/3172 (94.8%)

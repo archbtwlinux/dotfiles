@@ -1,0 +1,294 @@
+13:45:38.194: Platform: Wayland
+13:45:38.194: CPU Name: Intel(R) Core(TM) i5-4200U CPU @ 1.60GHz
+13:45:38.194: CPU Speed: 2294.904MHz
+13:45:38.194: Physical Cores: 2, Logical Cores: 4
+13:45:38.194: Physical Memory: 15765MB Total, 629MB Free
+13:45:38.194: Kernel Version: Linux 6.12.25-2-lts
+13:45:38.194: Distribution: "Arch Linux" Unknown
+13:45:38.194: Desktop Environment: Hyprland (Hyprland)
+13:45:38.194: Session Type: wayland
+13:45:38.199: Qt Version: 6.9.0 (runtime), 6.8.3 (compiled)
+13:45:38.199: Portable mode: false
+13:45:38.290: OBS 31.0.3 (linux)
+13:45:38.290: ---------------------------------
+13:45:38.291: ---------------------------------
+13:45:38.291: audio settings reset:
+13:45:38.291: 	samples per sec: 48000
+13:45:38.291: 	speakers:        2
+13:45:38.291: 	max buffering:   960 milliseconds
+13:45:38.291: 	buffering type:  dynamically increasing
+13:45:38.294: ---------------------------------
+13:45:38.294: Initializing OpenGL...
+13:45:38.294: Using EGL/Wayland
+13:45:38.791: Initialized EGL 1.5
+13:45:38.829: Loading up OpenGL on adapter Intel Mesa Intel(R) HD Graphics 4400 (HSW GT2)
+13:45:38.829: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 25.0.5-arch1.1, shading language 4.60
+13:45:38.918: ---------------------------------
+13:45:38.918: video settings reset:
+13:45:38.918: 	base resolution:   1366x768
+13:45:38.918: 	output resolution: 1092x614
+13:45:38.918: 	downscale filter:  Bicubic
+13:45:38.918: 	fps:               30/1
+13:45:38.918: 	format:            NV12
+13:45:38.918: 	YUV mode:          Rec. 709/Partial
+13:45:38.918: NV12 texture support enabled
+13:45:38.918: P010 texture support not available
+13:45:38.925: Audio monitoring device:
+13:45:38.925: 	name: Default
+13:45:38.925: 	id: default
+13:45:38.925: ---------------------------------
+13:45:38.950: Failed to load 'en-US' text for module: 'decklink-captions.so'
+13:45:38.964: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+13:45:39.001: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+13:45:39.001: Failed to initialize module 'decklink.so'
+13:45:39.379: [pipewire] Available capture sources:
+13:45:39.379: [pipewire]     - Monitor source
+13:45:39.379: [pipewire]     - Window source
+13:45:39.418: v4l2loopback not installed, virtual camera not registered
+13:45:39.731: VAAPI: API version 1.22
+13:45:39.732: FFmpeg VAAPI H264 encoding supported
+13:45:39.733: FFmpeg VAAPI AV1 encoding not supported
+13:45:39.735: FFmpeg VAAPI HEVC encoding not supported
+13:45:39.866: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+13:45:39.866: 
+13:45:39.866: NVENC not supported
+13:45:39.866: Failed to initialize module 'obs-nvenc.so'
+13:45:39.923: Legacy intel-vaapi-driver detected, incompatible with QSV
+13:45:39.924: Legacy intel-vaapi-driver detected, incompatible with QSV
+13:45:40.044: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: cannot open shared object file: No such file or directory
+13:45:40.044: 
+13:45:40.050: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: cannot open shared object file: No such file or directory
+13:45:40.050: 
+13:45:40.050: Module '/usr/lib/obs-plugins/obs-websocket.so' not loaded
+13:45:40.095: ---------------------------------
+13:45:40.095:   Loaded Modules:
+13:45:40.095:     text-freetype2.so
+13:45:40.095:     rtmp-services.so
+13:45:40.095:     obs-x264.so
+13:45:40.095:     obs-webrtc.so
+13:45:40.095:     obs-vst.so
+13:45:40.095:     obs-transitions.so
+13:45:40.095:     obs-qsv11.so
+13:45:40.095:     obs-outputs.so
+13:45:40.095:     obs-libfdk.so
+13:45:40.095:     obs-filters.so
+13:45:40.095:     obs-ffmpeg.so
+13:45:40.095:     linux-v4l2.so
+13:45:40.095:     linux-pulseaudio.so
+13:45:40.095:     linux-pipewire.so
+13:45:40.095:     linux-jack.so
+13:45:40.095:     linux-capture.so
+13:45:40.095:     linux-alsa.so
+13:45:40.095:     image-source.so
+13:45:40.095:     frontend-tools.so
+13:45:40.095:     decklink-output-ui.so
+13:45:40.095:     decklink-captions.so
+13:45:40.095: ---------------------------------
+13:45:40.095: ---------------------------------
+13:45:40.095: Available Encoders:
+13:45:40.095:   Video Encoders:
+13:45:40.095: 	- ffmpeg_svt_av1 (SVT-AV1)
+13:45:40.095: 	- ffmpeg_aom_av1 (AOM AV1)
+13:45:40.095: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+13:45:40.095: 	- obs_x264 (x264)
+13:45:40.096:   Audio Encoders:
+13:45:40.096: 	- ffmpeg_aac (FFmpeg AAC)
+13:45:40.096: 	- ffmpeg_opus (FFmpeg Opus)
+13:45:40.096: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+13:45:40.096: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+13:45:40.096: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+13:45:40.096: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+13:45:40.096: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+13:45:40.096: 	- libfdk_aac (libfdk AAC)
+13:45:40.096: ==== Startup complete ===============================================
+13:45:40.106: No scene file found, creating default scene
+13:45:40.131: All scene data cleared
+13:45:40.131: ------------------------------------------------
+13:45:40.139: pulse-input: Server name: 'pulseaudio 17.0-43-g3e2bb'
+13:45:40.140: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+13:45:40.140: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor' (default)
+13:45:40.176: pulse-input: Server name: 'pulseaudio 17.0-43-g3e2bb'
+13:45:40.176: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+13:45:40.176: pulse-input: Started recording from 'alsa_input.pci-0000_00_1b.0.analog-stereo' (default)
+13:45:40.178: Switched to scene 'Scene'
+13:45:40.179: Created scene collection 'Untitled' (clean, Untitled.json)
+13:45:40.179: ------------------------------------------------
+13:45:41.077: [rtmp-services plugin] Successfully updated file 'services.json' (version 270)
+13:45:41.077: [rtmp-services plugin] Successfully updated package (version 270)
+13:45:54.104: 
+13:45:54.104: ==== Auto-config wizard testing commencing ======
+
+13:45:54.125: Number of remaining views: 1
+13:45:54.125: ---------------------------------
+13:45:54.125: video settings reset:
+13:45:54.125: 	base resolution:   1366x768
+13:45:54.125: 	output resolution: 852x480
+13:45:54.125: 	downscale filter:  Bicubic
+13:45:54.125: 	fps:               30/1
+13:45:54.125: 	format:            NV12
+13:45:54.125: 	YUV mode:          Rec. 709/Partial
+13:45:54.126: NV12 texture support enabled
+13:45:54.126: P010 texture support not available
+13:45:54.131: Output 'null': Tried to use obs_output_set_media on an encoded output
+13:45:54.131: ---------------------------------
+13:45:54.131: [x264 encoder: 'test_x264'] preset: veryfast
+13:45:54.131: [x264 encoder: 'test_x264'] profile: high
+13:45:54.131: [x264 encoder: 'test_x264'] settings:
+13:45:54.131: 	rate_control: CRF
+13:45:54.131: 	bitrate:      0
+13:45:54.131: 	buffer size:  0
+13:45:54.131: 	crf:          20
+13:45:54.131: 	fps_num:      30
+13:45:54.131: 	fps_den:      1
+13:45:54.131: 	width:        852
+13:45:54.131: 	height:       480
+13:45:54.131: 	keyint:       250
+13:45:54.131: 
+13:45:54.136: ---------------------------------
+13:45:54.136: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: stereo, track: 1
+13:45:54.136: 
+13:45:59.137: Output 'null': stopping
+13:45:59.137: Output 'null': Total frames output: 129
+13:45:59.137: Output 'null': Total drawn frames: 150
+13:45:59.198: Number of remaining views: 1
+13:45:59.198: ---------------------------------
+13:45:59.198: video settings reset:
+13:45:59.198: 	base resolution:   1366x768
+13:45:59.198: 	output resolution: 640x360
+13:45:59.198: 	downscale filter:  Bicubic
+13:45:59.198: 	fps:               60/1
+13:45:59.198: 	format:            NV12
+13:45:59.198: 	YUV mode:          Rec. 709/Partial
+13:45:59.198: NV12 texture support enabled
+13:45:59.198: P010 texture support not available
+13:45:59.203: Output 'null': Tried to use obs_output_set_media on an encoded output
+13:45:59.203: ---------------------------------
+13:45:59.203: [x264 encoder: 'test_x264'] preset: veryfast
+13:45:59.203: [x264 encoder: 'test_x264'] profile: high
+13:45:59.203: [x264 encoder: 'test_x264'] settings:
+13:45:59.203: 	rate_control: CRF
+13:45:59.203: 	bitrate:      0
+13:45:59.203: 	buffer size:  0
+13:45:59.203: 	crf:          20
+13:45:59.203: 	fps_num:      60
+13:45:59.203: 	fps_den:      1
+13:45:59.203: 	width:        640
+13:45:59.203: 	height:       360
+13:45:59.203: 	keyint:       250
+13:45:59.203: 
+13:45:59.206: ---------------------------------
+13:45:59.206: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: stereo, track: 1
+13:45:59.206: 
+13:46:04.206: Output 'null': stopping
+13:46:04.207: Output 'null': Total frames output: 279
+13:46:04.207: Output 'null': Total drawn frames: 300
+13:46:04.236: Number of remaining views: 1
+13:46:04.236: ---------------------------------
+13:46:04.236: video settings reset:
+13:46:04.236: 	base resolution:   1366x768
+13:46:04.236: 	output resolution: 640x360
+13:46:04.236: 	downscale filter:  Bicubic
+13:46:04.236: 	fps:               30/1
+13:46:04.236: 	format:            NV12
+13:46:04.236: 	YUV mode:          Rec. 709/Partial
+13:46:04.237: NV12 texture support enabled
+13:46:04.237: P010 texture support not available
+13:46:04.241: Output 'null': Tried to use obs_output_set_media on an encoded output
+13:46:04.241: ---------------------------------
+13:46:04.241: [x264 encoder: 'test_x264'] preset: veryfast
+13:46:04.241: [x264 encoder: 'test_x264'] profile: high
+13:46:04.241: [x264 encoder: 'test_x264'] settings:
+13:46:04.241: 	rate_control: CRF
+13:46:04.241: 	bitrate:      0
+13:46:04.241: 	buffer size:  0
+13:46:04.241: 	crf:          20
+13:46:04.241: 	fps_num:      30
+13:46:04.241: 	fps_den:      1
+13:46:04.241: 	width:        640
+13:46:04.241: 	height:       360
+13:46:04.241: 	keyint:       250
+13:46:04.241: 
+13:46:04.243: ---------------------------------
+13:46:04.244: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: stereo, track: 1
+13:46:04.244: 
+13:46:09.244: Output 'null': stopping
+13:46:09.244: Output 'null': Total frames output: 129
+13:46:09.244: Output 'null': Total drawn frames: 150
+13:46:09.275: Number of remaining views: 1
+13:46:09.275: ---------------------------------
+13:46:09.275: video settings reset:
+13:46:09.275: 	base resolution:   1366x768
+13:46:09.275: 	output resolution: 1092x614
+13:46:09.275: 	downscale filter:  Bicubic
+13:46:09.275: 	fps:               30/1
+13:46:09.275: 	format:            NV12
+13:46:09.275: 	YUV mode:          Rec. 709/Partial
+13:46:09.275: NV12 texture support enabled
+13:46:09.275: P010 texture support not available
+13:46:11.982: Number of remaining views: 1
+13:46:11.982: ---------------------------------
+13:46:11.982: video settings reset:
+13:46:11.982: 	base resolution:   1920x1080
+13:46:11.982: 	output resolution: 852x480
+13:46:11.982: 	downscale filter:  Bicubic
+13:46:11.982: 	fps:               30/1
+13:46:11.982: 	format:            NV12
+13:46:11.982: 	YUV mode:          Rec. 709/Partial
+13:46:11.982: NV12 texture support enabled
+13:46:11.982: P010 texture support not available
+13:46:11.992: 
+13:46:11.992: ==== Auto-config wizard testing stopping ========
+
+13:46:19.256: PipeWire initialized
+13:46:19.263: User added source 'Screen Capture (PipeWire)' (pipewire-screen-capture-source) to scene 'Scene'
+13:46:19.312: [pipewire] Screencast session created
+13:46:21.562: [pipewire] Asking for monitor and window
+13:46:21.599: [pipewire] source selected, setting up screencast
+13:46:21.612: [pipewire] Server version: 1.4.2
+13:46:21.612: [pipewire] Library version: 1.4.2
+13:46:21.612: [pipewire] Header version: 1.4.1
+13:46:21.612: [pipewire] Created stream 0x5feb6f53d5a0
+13:46:21.612: [pipewire] Stream 0x5feb6f53d5a0 state: "connecting" (error: none)
+13:46:21.613: [pipewire] Playing stream 0x5feb6f53d5a0
+13:46:21.613: [pipewire] Stream 0x5feb6f53d5a0 state: "paused" (error: none)
+13:46:28.746: ---------------------------------
+13:46:28.746: [x264 encoder: 'simple_video_recording'] preset: veryfast
+13:46:28.746: [x264 encoder: 'simple_video_recording'] profile: high
+13:46:28.746: [x264 encoder: 'simple_video_recording'] settings:
+13:46:28.746: 	rate_control: CRF
+13:46:28.746: 	bitrate:      0
+13:46:28.746: 	buffer size:  0
+13:46:28.746: 	crf:          18
+13:46:28.746: 	fps_num:      30
+13:46:28.746: 	fps_den:      1
+13:46:28.746: 	width:        852
+13:46:28.746: 	height:       480
+13:46:28.746: 	keyint:       250
+13:46:28.746: 
+13:46:28.750: libfdk_aac encoder created
+13:46:28.750: libfdk_aac bitrate: 192, channels: 2
+13:46:28.895: ==== Recording Start ===============================================
+13:46:28.895: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/archbtw/2025-05-01 13-46-28.mkv'...
+13:46:32.441: output simple_file_output paused
+13:46:34.168: output simple_file_output unpaused
+13:46:34.915: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/archbtw/2025-05-01 13-46-28.mkv' stopped
+13:46:34.915: Output 'simple_file_output': stopping
+13:46:34.915: Output 'simple_file_output': Total frames output: 107
+13:46:34.915: Output 'simple_file_output': Total drawn frames: 180
+13:46:34.916: ==== Recording Stop ================================================
+13:46:34.927: libfdk_aac encoder destroyed
+13:46:46.830: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5feb6deb8fe0 with focusing surface 0x5feb6f30f010
+13:46:52.780: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5feb6deb8fe0 with focusing surface 0x5feb6f30f010
+13:46:54.147: [pipewire] Stream 0x5feb6f53d5a0 state: "unconnected" (error: none)
+13:46:54.156: PipeWire initialized
+13:46:54.161: [pipewire] Screencast session created
+13:46:56.762: [pipewire] Asking for monitor and window
+13:46:56.766: [pipewire] source selected, setting up screencast
+13:46:56.781: [pipewire] Server version: 1.4.2
+13:46:56.781: [pipewire] Library version: 1.4.2
+13:46:56.781: [pipewire] Header version: 1.4.1
+13:46:56.781: [pipewire] Created stream 0x5feb6f53d5a0
+13:46:56.781: [pipewire] Stream 0x5feb6f53d5a0 state: "connecting" (error: none)
+13:46:56.781: [pipewire] Playing stream 0x5feb6f53d5a0
+13:46:56.782: [pipewire] Stream 0x5feb6f53d5a0 state: "paused" (error: none)
+13:46:57.368: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5feb6fe2a270 with focusing surface 0x5feb6f30f010

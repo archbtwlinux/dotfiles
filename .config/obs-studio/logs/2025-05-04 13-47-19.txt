@@ -1,0 +1,171 @@
+13:47:19.930: [Safe Mode] Unclean shutdown detected!
+13:47:22.761: [Safe Mode] User elected to launch normally.
+13:47:22.762: Platform: Wayland
+13:47:22.762: CPU Name: Intel(R) Core(TM) i5-4200U CPU @ 1.60GHz
+13:47:22.762: CPU Speed: 1596.352MHz
+13:47:22.762: Physical Cores: 2, Logical Cores: 4
+13:47:22.762: Physical Memory: 15765MB Total, 6524MB Free
+13:47:22.762: Kernel Version: Linux 6.12.26-1-lts
+13:47:22.762: Distribution: "Arch Linux" Unknown
+13:47:22.762: Desktop Environment: Hyprland (Hyprland)
+13:47:22.762: Session Type: wayland
+13:47:22.765: Qt Version: 6.9.0 (runtime), 6.8.3 (compiled)
+13:47:22.765: Portable mode: false
+13:47:22.801: OBS 31.0.3 (linux)
+13:47:22.801: ---------------------------------
+13:47:22.803: ---------------------------------
+13:47:22.803: audio settings reset:
+13:47:22.803: 	samples per sec: 48000
+13:47:22.803: 	speakers:        2
+13:47:22.803: 	max buffering:   960 milliseconds
+13:47:22.803: 	buffering type:  dynamically increasing
+13:47:22.847: ---------------------------------
+13:47:22.847: Initializing OpenGL...
+13:47:22.847: Using EGL/Wayland
+13:47:22.914: Initialized EGL 1.5
+13:47:22.940: Loading up OpenGL on adapter Intel Mesa Intel(R) HD Graphics 4400 (HSW GT2)
+13:47:22.940: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 25.0.5-arch1.1, shading language 4.60
+13:47:22.999: ---------------------------------
+13:47:22.999: video settings reset:
+13:47:22.999: 	base resolution:   1920x1080
+13:47:22.999: 	output resolution: 1920x1080
+13:47:22.999: 	downscale filter:  Bicubic
+13:47:22.999: 	fps:               60/1
+13:47:22.999: 	format:            NV12
+13:47:22.999: 	YUV mode:          Rec. 709/Partial
+13:47:22.999: NV12 texture support enabled
+13:47:22.999: P010 texture support not available
+13:47:23.009: Audio monitoring device:
+13:47:23.009: 	name: Default
+13:47:23.009: 	id: default
+13:47:23.024: ---------------------------------
+13:47:23.035: Failed to load 'en-US' text for module: 'decklink-captions.so'
+13:47:23.047: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+13:47:23.097: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+13:47:23.097: Failed to initialize module 'decklink.so'
+13:47:23.428: [input-overlay] Loading v5.0.6-makepkg (c99a526) build time 2025.05.04 13:44
+13:47:23.428: DEPRECATION: obs_frontend_get_global_config is deprecated. Read from global or user configuration explicitly instead.
+13:47:23.428: [input-overlay] Initializing SDL2 for gamepad input (compile-time: 2.32.54, run-time:  2.32.54)
+13:47:23.497: [input-overlay] Wayland is not supported by libuiohook. Keyboard an mouse hook will not work.
+13:47:23.497: 
+13:47:23.550: [pipewire] Available capture sources:
+13:47:23.550: [pipewire]     - Monitor source
+13:47:23.550: [pipewire]     - Window source
+13:47:23.582: v4l2loopback not installed, virtual camera not registered
+13:47:23.708: VAAPI: API version 1.22
+13:47:23.708: FFmpeg VAAPI H264 encoding supported
+13:47:23.709: FFmpeg VAAPI AV1 encoding not supported
+13:47:23.710: FFmpeg VAAPI HEVC encoding not supported
+13:47:23.778: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+13:47:23.778: 
+13:47:23.778: NVENC not supported
+13:47:23.778: Failed to initialize module 'obs-nvenc.so'
+13:47:23.875: Legacy intel-vaapi-driver detected, incompatible with QSV
+13:47:23.877: Legacy intel-vaapi-driver detected, incompatible with QSV
+13:47:24.052: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: cannot open shared object file: No such file or directory
+13:47:24.052: 
+13:47:24.057: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: cannot open shared object file: No such file or directory
+13:47:24.057: 
+13:47:24.057: Module '/usr/lib/obs-plugins/obs-websocket.so' not loaded
+13:47:24.123: ---------------------------------
+13:47:24.123:   Loaded Modules:
+13:47:24.123:     text-freetype2.so
+13:47:24.123:     rtmp-services.so
+13:47:24.123:     obs-x264.so
+13:47:24.123:     obs-webrtc.so
+13:47:24.123:     obs-vst.so
+13:47:24.123:     obs-transitions.so
+13:47:24.124:     obs-qsv11.so
+13:47:24.124:     obs-outputs.so
+13:47:24.124:     obs-libfdk.so
+13:47:24.124:     obs-filters.so
+13:47:24.124:     obs-ffmpeg.so
+13:47:24.124:     linux-v4l2.so
+13:47:24.124:     linux-pulseaudio.so
+13:47:24.124:     linux-pipewire.so
+13:47:24.124:     linux-jack.so
+13:47:24.124:     linux-capture.so
+13:47:24.124:     linux-alsa.so
+13:47:24.124:     input-overlay.so
+13:47:24.124:     image-source.so
+13:47:24.124:     frontend-tools.so
+13:47:24.124:     decklink-output-ui.so
+13:47:24.124:     decklink-captions.so
+13:47:24.124: ---------------------------------
+13:47:24.124: ---------------------------------
+13:47:24.124: Available Encoders:
+13:47:24.124:   Video Encoders:
+13:47:24.124: 	- ffmpeg_svt_av1 (SVT-AV1)
+13:47:24.124: 	- ffmpeg_aom_av1 (AOM AV1)
+13:47:24.124: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+13:47:24.124: 	- obs_x264 (x264)
+13:47:24.124:   Audio Encoders:
+13:47:24.124: 	- ffmpeg_aac (FFmpeg AAC)
+13:47:24.124: 	- ffmpeg_opus (FFmpeg Opus)
+13:47:24.124: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+13:47:24.124: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+13:47:24.124: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+13:47:24.124: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+13:47:24.124: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+13:47:24.124: 	- libfdk_aac (libfdk AAC)
+13:47:24.124: ==== Startup complete ===============================================
+13:47:24.173: QObject::connect: No such slot io_settings_dialog::RefreshUi()
+13:47:24.173: QObject::connect:  (receiver name: 'io_config_dialog')
+13:47:24.195: All scene data cleared
+13:47:24.195: ------------------------------------------------
+13:47:24.198: pulse-input: Server name: 'pulseaudio 17.0-43-g3e2bb'
+13:47:24.198: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+13:47:24.199: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor' (default)
+13:47:24.199: [Loaded global audio device]: 'Desktop Audio'
+13:47:24.199: pulse-input: Server name: 'pulseaudio 17.0-43-g3e2bb'
+13:47:24.199: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+13:47:24.199: pulse-input: Started recording from 'alsa_input.pci-0000_00_1b.0.analog-stereo' (default)
+13:47:24.199: [Loaded global audio device]: 'Mic/Aux'
+13:47:24.200: PipeWire initialized
+13:47:24.202: Switched to scene 'Scene'
+13:47:24.202: ------------------------------------------------
+13:47:24.202: Loaded scenes:
+13:47:24.202: - scene 'Scene':
+13:47:24.202:     - source: 'Screen Capture (PipeWire) 2' (pipewire-screen-capture-source)
+13:47:24.202: ------------------------------------------------
+13:47:24.304: [pipewire] Screencast session created
+13:47:25.055: [rtmp-services plugin] Successfully updated file 'services.json' (version 271)
+13:47:25.055: [rtmp-services plugin] Successfully updated package (version 271)
+13:47:26.419: [pipewire] Asking for monitor and window
+13:47:26.438: [pipewire] source selected, setting up screencast
+13:47:26.456: [pipewire] Server version: 1.4.2
+13:47:26.456: [pipewire] Library version: 1.4.2
+13:47:26.456: [pipewire] Header version: 1.4.1
+13:47:26.457: [pipewire] Created stream 0x628cae20caf0
+13:47:26.457: [pipewire] Stream 0x628cae20caf0 state: "connecting" (error: none)
+13:47:26.457: [pipewire] Playing stream 0x628cae20caf0
+13:47:26.458: [pipewire] Stream 0x628cae20caf0 state: "paused" (error: none)
+13:47:26.465: [pipewire] Negotiated format:
+13:47:26.465: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+13:47:26.465: [pipewire]     Modifier: 0x0
+13:47:26.465: [pipewire]     Size: 1366x768
+13:47:26.465: [pipewire]     Framerate: 0/1
+13:47:26.467: [pipewire] Negotiated format:
+13:47:26.467: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+13:47:26.467: [pipewire]     Modifier: 0x100000000000002
+13:47:26.467: [pipewire]     Size: 1366x768
+13:47:26.467: [pipewire]     Framerate: 0/1
+13:47:26.475: [pipewire] Stream 0x628cae20caf0 state: "streaming" (error: none)
+13:48:00.218: [input-overlay] couldn't open /home/archbtw/.config/obs-studio/plugin_config/input-overlay/filters.json
+13:48:10.600: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x628cae94e3c0 with focusing surface 0x628cae30d3f0
+13:48:11.855: User added source 'Input Overlay' (input-overlay) to scene 'Scene'
+13:48:28.238: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x628cae2cd010 with focusing surface 0x628cae94e3c0
+13:48:32.006: virtual void QtWaylandClient::QWaylandTextInputv3::enableSurface(wl_surface*) Try to enable surface 0x628cae94e3c0 with focusing surface 0x628cae4c9a00
+13:48:32.736: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x628cae2cd010 with focusing surface 0x628cae94e3c0
+13:48:35.550: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x628cae2d4c00 with focusing surface 0x628cae94e3c0
+13:48:42.582: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x628cae2d4c00 with focusing surface 0x628cae94e3c0
+13:49:14.918: Creating a popup with a parent, QWidgetWindow(0x628cac98b270, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x628cae322210, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
+13:49:15.845: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x628cae454920 with focusing surface 0x628cae94e3c0
+13:49:17.190: User Removed source 'Input Overlay' (input-overlay) from scene 'Scene'
+13:49:22.351: virtual void QtWaylandClient::QWaylandTextInputv3::enableSurface(wl_surface*) Try to enable surface 0x628cae336e30 with focusing surface 0x628cae94e3c0
+13:49:23.031: virtual void QtWaylandClient::QWaylandTextInputv3::enableSurface(wl_surface*) Try to enable surface 0x628cae94e3c0 with focusing surface 0x628cae336e30
+13:49:23.070: virtual void QtWaylandClient::QWaylandTextInputv3::enableSurface(wl_surface*) Try to enable surface 0x628cae336e30 with focusing surface 0x628cae94e3c0
+13:49:24.782: User added source 'Input Overlay' (input-overlay) to scene 'Scene'
+13:49:24.828: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x628cae43c2a0 with focusing surface 0x628cae94e3c0
+13:49:28.339: virtual void QtWaylandClient::QWaylandTextInputv3::enableSurface(wl_surface*) Try to enable surface 0x628cae94e3c0 with focusing surface 0x628cae5df1c0
+13:49:28.734: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x628cae43c2a0 with focusing surface 0x628cae94e3c0
