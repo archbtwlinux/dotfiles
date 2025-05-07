@@ -30,6 +30,8 @@ upscayl-bin
 waybar-updates
 wlrobs
 wshowkeys-mao-git
+xwaylandvideobridge
+xwaylandvideobridge-debug
 yay
 yay-debug
 zen-browser-bin
