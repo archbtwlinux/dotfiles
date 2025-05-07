@@ -6,6 +6,9 @@ set -xg XDG_STATE_HOME $HOME/.local/state
 set -xg XDG_BIN_HOME $HOME/.local/bin
 set -xg XDG_SCRIPT_HOME $HOME/.local/script
 
+# shell integration, if we don't set it, working directory features won't work
+set -gx GHOSTTY_SHELL_INTEGRATION_XDG_DIR /Applications/Ghostty.app/Contents/Resources/ghostty/shell-integration
+
 # Respect XDG Specification
 set -xg CONAN_USER_HOME $XDG_CONFIG_HOME
 set -xg GOPATH $XDG_DATA_HOME/go
